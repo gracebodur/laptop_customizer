@@ -12,7 +12,7 @@ class FeatureList extends React.Component {
             </legend>
             {/* {options} build in FeatureOptions pass props */}
             <FeatureOptions 
-            // featureName = {feature}
+            featureName = {feature}
             feature={this.props.features[feature]}
             features={this.props.features}
             updateFeature={this.props.updateFeature}
