@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
 // Normalizes string as a slug - a string that is safe to use
 // in both URLs and html attributes
 // import slugify from 'slugify'; //ughhh slugify!
 
-import './App.css';
-import Total from './Total/Total';
+// import './App.css';
+// import Total from './Total/Total';
 
 
 // pass to Features and Cart Convert numbers=> .format(numbers) into variable
@@ -143,11 +143,11 @@ import Total from './Total/Total';
                 {USCurrencyFormat.format(total)}
               </div>
             </div> */}
-          </section>
-        </main>
-      </div>
-    );
-  }
-}
+//           </section>
+//         </main>
+//       </div>
+//     );
+//   }
+// }
 
-export default App;
+// export default App;
