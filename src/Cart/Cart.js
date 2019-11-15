@@ -1,5 +1,6 @@
 import React from 'react'
 import CartList from '../CartList/CartList'
+import Total from '../Total/Total'
 
 class Cart extends React.Component {
     render() {
@@ -11,6 +12,9 @@ class Cart extends React.Component {
             selected = {this.props.selected}
             USCurrencyFormat={this.props.USCurrencyFormat}
             />
+          <Total 
+          USCurrencyFormat={this.props.USCurrencyFormat}
+          selected={this.props.selected} />
           </section>
         )
     }
